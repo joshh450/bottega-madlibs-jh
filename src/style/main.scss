@@ -64,6 +64,7 @@ body {
 }
 
 .card {
+    background-color: white;
     min-height: 736px;
     min-height: 934px;
     width: 1240px;
@@ -73,7 +74,6 @@ body {
     grid-template-rows: 1fr 50px;
 
     &__inputs {
-        background-color: skyblue;
         display: grid;
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(4, 1fr);
