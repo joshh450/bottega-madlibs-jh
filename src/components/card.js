@@ -46,7 +46,7 @@ class Card extends Component {
         if (this.state.contentVisible) {
             this.setState(INITIAL_STATE)
         } else {
-            this.setState({ contentVisible: true })
+            this.setState({ contentVisible: true } )
         }
     }
 
